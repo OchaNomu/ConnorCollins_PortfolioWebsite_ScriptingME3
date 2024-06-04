@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+body {
+    background-color: #001829;
+    color: #F5F5F5;
+    font-family: url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #F1F9EC;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+    transition: all 0.4s ease;
+}
+
+a:hover{
+    color: #4F7942;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar{
+    background-color: #1569a5;
+}
+.navbar .navbar-brand {
+    padding-left: 80px;
+}
+.navbar .nav-link{
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+}
+.navbar .nav-link:hover{
+    color: white;
+    text-transform: bold;
+    text-transform: uppercase;
+}
+
+@media(min-width: 992px){
+    .navbar{
+        background: linear-gradient(#001829, #1569a5)
+    }
+}
+
+#about{
+    padding-right: 600px;
+    padding-top: 30px;
+}
+
+#games{
+    padding-right: 800px;
+    padding-top: 30px;
+    text-align: left;
+}
+#assets{
+    padding-right: 800px;
+    padding-top: 30px;
+    text-align: left;
+}
+#boardgames{
+    padding-right: 800px;
+    padding-top: 30px;
+    text-align: left;
+}
+#BoardGames{
+    text-align: right;
+    text-align: top;
+}
+
+.card-custom .card-custom-image{
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img{
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img{
+    transform:scale(1.1);
+}
